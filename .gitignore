@@ -32,9 +32,6 @@ npm-debug.log
 # for macos
 .DS_Store
 
-database
-database/*
-
 *.idea/
 .idea/
 workspace.xml

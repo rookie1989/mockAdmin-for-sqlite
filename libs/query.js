@@ -1,5 +1,5 @@
 let path = require('path');
-let file = path.resolve("./database/mock.sqlite3");
+let file = path.resolve("./database/mock-test.db");
 let sqlite3 = require("sqlite3").verbose();
 
 module.exports = function (mode, sql, array) {
