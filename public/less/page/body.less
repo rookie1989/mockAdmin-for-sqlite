@@ -1,0 +1,57 @@
+body {
+  background: #f5f7f6;
+}
+
+html, body {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+body .flex-content {
+  flex: 1;
+}
+
+.oper-list {
+  a {
+    color: #337ab7;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 12px;
+  }
+  a:last-child {
+    margin-right: 0;
+  }
+  a:hover {
+    color: #2597c3;
+  }
+}
+
+span.label {
+  & {
+    font-size: 14px;
+    font-weight: normal;
+    border-width: 1px;
+    border-style: solid;
+  }
+  &.get {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #3c763d;
+  }
+  &.post {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #31708f;
+  }
+  &.delete {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #a94442;
+  }
+  &.put {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #8a6d3b;
+  }
+}

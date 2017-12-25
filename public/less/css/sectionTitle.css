@@ -1,0 +1,58 @@
+.section-title {
+  position: relative;
+  height: 64px;
+  line-height: 64px;
+}
+.section-title .filter-btns {
+  float: left;
+}
+.section-title .filter-btns button:focus,
+.section-title .filter-btns button:active {
+  outline: none;
+}
+.section-title .filter-btns button.on {
+  background: #337ab7;
+  color: #fff;
+  border-color: #337ab7;
+}
+.section-title h3 {
+  float: left;
+  font-size: 16px;
+  color: #666666;
+  font-weight: normal;
+  margin: 0;
+  line-height: inherit;
+  display: none;
+}
+.section-title .btn-group {
+  float: right;
+  position: relative;
+  top: 16px;
+}
+.section-title .btn-group button {
+  margin-left: 12px;
+}
+.module-list {
+  margin-bottom: 20px;
+}
+.module-list button {
+  display: none;
+  margin-bottom: 10px;
+}
+.module-list button:focus,
+.module-list button:active {
+  outline: none;
+}
+.module-list button.on {
+  background: #337ab7;
+  color: #fff;
+  border-color: #337ab7;
+  display: inline-block;
+}
+.module-list button.not-work {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+  border-style: dotted;
+  display: inline-block;
+}

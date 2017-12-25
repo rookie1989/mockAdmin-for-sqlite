@@ -1,0 +1,9 @@
+table tbody tr {
+  display: none;
+}
+table tbody tr {
+  display: none;
+}
+table tbody tr.show {
+  display: table-row !important;
+}

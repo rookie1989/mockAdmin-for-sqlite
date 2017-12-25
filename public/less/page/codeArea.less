@@ -1,0 +1,61 @@
+.code-area {
+  & {
+    border: 1px solid #ddd;
+  }
+  .code-area-left {
+    & {
+      position: relative;
+      padding: 0;
+    }
+    textarea {
+      height: 550px;
+      padding: 20px;
+      border: none;
+      border-right: solid 1px #ddd;
+      border-radius: 0;
+      resize: none;
+      outline: none;
+    }
+    .format-btn {
+      & {
+        position: absolute;
+        top:20px;
+        right:20px;
+      }
+      &:active,&:focus {
+        outline: none;
+      }
+    }
+  }
+  .code-area-right {
+    & {
+      padding: 0;
+    }
+    .navi {
+      & {
+        padding: 10px;
+        font-size: 16px;
+        border-bottom: solid 1px #ddd;
+
+        padding: 5px 20px;
+        font-size: 14px;
+        font-weight: bold;
+      }
+      a {
+        padding: 0px 20px;
+        color: #999;
+      }
+      a:hover {
+        color: #15b374;
+      }
+    }
+    .json-target {
+      height: 510px;
+      padding: 20px;
+      border-radius: 0;
+      resize: none;
+      overflow-y: scroll;
+      outline: none;
+    }
+  }
+}

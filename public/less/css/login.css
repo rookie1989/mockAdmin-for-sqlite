@@ -1,0 +1,18 @@
+.login-wrap {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+}
+.login-wrap h1 {
+  text-align: center;
+}
+.login-wrap button {
+  width: 100%;
+}
+.login-wrap .tip {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  display: none;
+}
